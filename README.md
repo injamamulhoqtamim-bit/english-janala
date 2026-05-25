@@ -50,7 +50,7 @@ Ensure you have **Node.js** and **npm** installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/farabi-x09/English-janala.git
+    git clone https://github.com/injamamulhoqtamim-bit/english-janala
     ```
 2.  **Navigate to the project folder:**
     ```bash
