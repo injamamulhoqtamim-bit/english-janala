@@ -3,12 +3,14 @@ const createElements = (arr) => {
     return htmlElements.join(" ");
 };
 
+// Speech Synthesis API to pronounce word in English 
 function pronounceWord(word) {
   const utterance = new SpeechSynthesisUtterance(word);
   utterance.lang = "en-EN"; // English
   window.speechSynthesis.speak(utterance);
 }
 
+// Spinner manage function to show and hide spinner
 const manageSpinner = (status) =>{
 if(status == true){
     document.getElementById("spinner").classList.remove("hidden");
@@ -20,16 +22,22 @@ else{
 }
 }
 
+// Load all lessons from API
+
 const loadLesson = () => {
     fetch("https://openapi.programming-hero.com/api/levels/all")
     .then((res) => res.json()) // promise of json data
     .then((json) => displayLesson(json.data) )
 };
+
+// Remove active class from all lesson buttons to manage active state
 const removeActive= () =>{
     const lessonButtons = document.querySelectorAll(".lesson-btn");
     // console.log(lessonButtons);
     lessonButtons.forEach(btn =>btn.classList.remove("active"));
 };
+
+// Load words of a specific lesson by id
 
 const loadLevelWord = (id) =>{
     manageSpinner(true);
@@ -46,7 +54,7 @@ const loadLevelWord = (id) =>{
     })
 };
 
-
+// Load word details by id and display in modal
 
 const loadWordDetail = async (id)=>{
 const url = `https://openapi.programming-hero.com/api/word/${id}`;
@@ -85,6 +93,8 @@ const displayWordDetails = (word) =>{
     // `
 };
 
+
+// Display words of a specific lesson in the UI
 const displayLevelWord = (words) =>{
 
     const wordContainer = document.getElementById("word-container");
@@ -124,6 +134,8 @@ const displayLevelWord = (words) =>{
  manageSpinner(false);
 };
 
+
+// Display all lessons in the UI 
 const displayLesson = (lessons) => {
     // 1. get the container and empty
 
@@ -131,7 +143,7 @@ const displayLesson = (lessons) => {
     levelContainer.innerHTML = "";
 
 
-    // 2. get into every lesson
+    // 2. get into every lesson 
     for(let lesson of lessons){
         // 3. create element
 
@@ -143,13 +155,15 @@ const displayLesson = (lessons) => {
         </button>
         `
 
-        // 4. append into container
+        // 4. append into container 
         levelContainer.append(btnDiv)
     }
 
 
 };
 
+
+// Initial load of all lessons on page load
 loadLesson();
 
 document.getElementById("btn-search").addEventListener("click", () =>{
@@ -162,7 +176,7 @@ document.getElementById("btn-search").addEventListener("click", () =>{
     .then((res) => res.json())
     .then((data) => {
         const allWords = data.data;
-        // console.log(allWords);
+        // console.log(allWords); 
         const filterWords = allWords.filter(word => word.word.toLowerCase().includes(searchValue));
         displayLevelWord(filterWords);
     })
