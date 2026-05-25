@@ -1,6 +1,10 @@
+
+Markdown
 # 📚ENGLISH JANALA
 
-**English Janala** is an interactive English vocabulary and language learning web application. It is designed to help users learn new words, improve their vocabulary across different levels, and enhance their English language skills in an engaging and user-friendly way.
+ **English Janala** is an interactive English vocabulary and language learning web application. It is designed to help users learn new words, improve their vocabulary across different levels, and enhance their English language skills in an engaging and user-friendly way.
+
+# **English জানালা** হলো একটি ইন্টারেক্টিভ ইংরেজি ভোকাবুলারি এবং ভাষা শেখার ওয়েব অ্যাপ্লিকেশন। ব্যবহারকারীরা যাতে খুব সহজেই মজার ছলে বিভিন্ন লেভেলের ইংরেজি শব্দ ও তার অর্থ শিখতে পারেন, সেই উদ্দেশ্যেই এই প্ল্যাটফর্মটি তৈরি করা হয়েছে।
 
 ## 🔗 Project Links
 - ***Live Demo:*** https://english-janala-dusky.vercel.app/
@@ -58,9 +62,8 @@ Ensure you have **Node.js** and **npm** installed on your system.
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/injamamulhoqtamim-bit/english-janala
-    ```
 
-    ```
+    
 2.  **Open the project:**
     * Simply open `index.html` in your browser.
     * *Recommended:* Use the **VS Code Live Server** extension for the best experience.
@@ -69,7 +72,7 @@ Ensure you have **Node.js** and **npm** installed on your system.
 
 ## 📁 Folder Structure
 
-```text
+text
 ├── assets/
 │   ├── logo.png          # Website favicon shortcut icon
 │   └── injamamul.png     # Primary navbar logo image
@@ -80,11 +83,11 @@ Ensure you have **Node.js** and **npm** installed on your system.
 └── README.md             # Project documentation (This file)
 
 
-
-
-##### 🤝 Contributing
 ---
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page or open a Pull Request if you want to add new features, fix bugs, or optimize the current code.
+
+### 🤝 Contributing
+
+# Contributions, issues, and feature requests are welcome! Feel free to check the issues page or open a Pull Request if you want to add new features, fix bugs, or optimize the current code.
 
 Developed with ❤️ by [Your Name / Injamamul]
 
