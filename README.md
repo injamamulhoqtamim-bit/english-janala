@@ -67,7 +67,7 @@ Ensure you have **Node.js** and **npm** installed on your system.
 
 ---
 
----## 📁 Folder Structure
+## 📁 Folder Structure
 
 ```text
 ├── assets/
@@ -78,3 +78,14 @@ Ensure you have **Node.js** and **npm** installed on your system.
 ├── style.css             # Custom styling overrides (if applicable)
 ├── index.html            # Main HTML markup entry point
 └── README.md             # Project documentation (This file)
+
+
+
+
+##### 🤝 Contributing
+---
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page or open a Pull Request if you want to add new features, fix bugs, or optimize the current code.
+
+Developed with ❤️ by [Your Name / Injamamul]
+
+---
