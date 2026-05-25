@@ -43,6 +43,10 @@ This project is built using modern front-end web technologies:
 
 ---
 
+
+
+
+
 ## ⚙️ Installation & Local Setup
 
 To get a local copy up and running, follow these simple steps:
@@ -62,3 +66,15 @@ Ensure you have **Node.js** and **npm** installed on your system.
     * *Recommended:* Use the **VS Code Live Server** extension for the best experience.
 
 ---
+
+---## 📁 Folder Structure
+
+```text
+├── assets/
+│   ├── logo.png          # Website favicon shortcut icon
+│   └── injamamul.png     # Primary navbar logo image
+├── script/
+│   └── index.js          # Core JavaScript for dynamic data rendering & search functionality
+├── style.css             # Custom styling overrides (if applicable)
+├── index.html            # Main HTML markup entry point
+└── README.md             # Project documentation (This file)
