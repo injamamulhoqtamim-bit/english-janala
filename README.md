@@ -3,10 +3,10 @@
 A dynamic and interactive vocabulary learning application built with **React.js**. This tool helps users master new words through lesson-based levels, voice pronunciations, and a personalized "Saved Words" feature.
 
 ## 🔗 Project Links
-- **Live Demo:** https://english-janala-by.netlify.app/
-- **GitHub Repository:** https://github.com/farabi-x09/English-janala
+- ***Live Demo:*** https://english-janala-dusky.vercel.app/
+
 - ## 📸 Project Screenshot  
-<img width="1810" height="889" alt="jananla" src="https://github.com/user-attachments/assets/0d58e734-4951-406c-b09a-5adad1d31154" />
+<img width="1810" height="889" alt="jananla" src="./assets/screenshoot.jpg" />
 
 
 ---
